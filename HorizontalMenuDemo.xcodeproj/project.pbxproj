@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04944ED21C40BEFC003E1C91 /* HorizontalMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04944ED11C40BEFC003E1C91 /* HorizontalMenuView.m */; };
 		742836681C40BE4900B4E8BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 742836671C40BE4900B4E8BD /* main.m */; };
 		7428366B1C40BE4900B4E8BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428366A1C40BE4900B4E8BD /* AppDelegate.m */; };
 		7428366E1C40BE4900B4E8BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428366D1C40BE4900B4E8BD /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04944ED01C40BEFC003E1C91 /* HorizontalMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalMenuView.h; sourceTree = "<group>"; };
+		04944ED11C40BEFC003E1C91 /* HorizontalMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalMenuView.m; sourceTree = "<group>"; };
 		742836631C40BE4900B4E8BD /* HorizontalMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		742836671C40BE4900B4E8BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		742836691C40BE4900B4E8BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,10 +65,8 @@
 				7428366A1C40BE4900B4E8BD /* AppDelegate.m */,
 				7428366C1C40BE4900B4E8BD /* ViewController.h */,
 				7428366D1C40BE4900B4E8BD /* ViewController.m */,
-				7428366F1C40BE4900B4E8BD /* Main.storyboard */,
-				742836721C40BE4900B4E8BD /* Assets.xcassets */,
-				742836741C40BE4900B4E8BD /* LaunchScreen.storyboard */,
-				742836771C40BE4900B4E8BD /* Info.plist */,
+				04944ED01C40BEFC003E1C91 /* HorizontalMenuView.h */,
+				04944ED11C40BEFC003E1C91 /* HorizontalMenuView.m */,
 				742836661C40BE4900B4E8BD /* Supporting Files */,
 			);
 			path = HorizontalMenuDemo;
@@ -74,6 +75,10 @@
 		742836661C40BE4900B4E8BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7428366F1C40BE4900B4E8BD /* Main.storyboard */,
+				742836721C40BE4900B4E8BD /* Assets.xcassets */,
+				742836741C40BE4900B4E8BD /* LaunchScreen.storyboard */,
+				742836771C40BE4900B4E8BD /* Info.plist */,
 				742836671C40BE4900B4E8BD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7428366E1C40BE4900B4E8BD /* ViewController.m in Sources */,
+				04944ED21C40BEFC003E1C91 /* HorizontalMenuView.m in Sources */,
 				7428366B1C40BE4900B4E8BD /* AppDelegate.m in Sources */,
 				742836681C40BE4900B4E8BD /* main.m in Sources */,
 			);
@@ -300,6 +306,7 @@
 				7428367C1C40BE4900B4E8BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
